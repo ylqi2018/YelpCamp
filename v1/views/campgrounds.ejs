@@ -1,0 +1,23 @@
+<h1>Welcome to YelpCamp</h1>
+
+<p>View all campgrounds from all over the world</p>
+
+<!-- <%= campgrounds1 %> -->
+
+<% campgrounds1.forEach(function(campground){ %>
+<!--
+	<div>
+		<h4>campground.name</h4>
+	</div>
+-->
+	<div>
+		<h4><%= campground.name %></h4>
+<!--		<img src= <%= campground.image %> > -->
+		<img src= "<%= campground.image %>" >
+	</div>
+<% }); %>
+
+
+<a class="button">Add a new campground</a>
+
+<input type="button">Add A New Campground</input>
