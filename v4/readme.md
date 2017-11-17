@@ -44,6 +44,7 @@
 * Add a show route/templates
 
 ##This is the beginning of v3 ##
+
 #Refactor Mongoose Code
 * Create a models directory
 * Use module.exports
@@ -58,6 +59,7 @@
 * Display comments on campground show page
 
 ##This is the beginning of v4 ##
+
 #Comment New/Create
 * Discuss nested routes
 * Add the comment new and create routes
