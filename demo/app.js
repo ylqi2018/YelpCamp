@@ -1,5 +1,6 @@
 var express = require("express");	// load express module and assign to variable express
 var path = require("path");
+var api = require("./routes/api");
 var app = express();	// create express instance and assign to variable app
 
 
@@ -30,8 +31,13 @@ app.listen(app.get("port"), function(req, res){
 
 // Routes
 app.get("/", function(req, res){
-	res.send("Hello world!");
+	var body = "Hello world.";
+	res.setHeader("Content-Type", "text/plain");
+	res.setHeader("Content-Length", body.length);
+	res.end(body);
 });
+
+app.get("/api", api.index);
 
 
 
