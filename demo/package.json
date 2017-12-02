@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yunlong-20171202",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}
